@@ -2,7 +2,7 @@ const dialogflow = require('dialogflow');
 const uuid = require('uuid');
 const path = require('path');
 
-const keyPath = path.resolve(__dirname, './prativa-swebspeechchatbot-kmit-2e48e45d6789.json');
+const keyPath = path.resolve(__dirname, '../../Documents/prativa-swebspeechchatbot-kmit-2e48e45d6789.json');
 
 process.env.GOOGLE_APPLICATION_CREDENTIALS = keyPath;
 
